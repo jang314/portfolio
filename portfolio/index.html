@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <title>Resume - Start Bootstrap Theme</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet"
+          type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css"/>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">JANG HYE JIN</span>
+        <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+                                             src="assets/img/profile.jpg" alt="..."/></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- Page Content-->
+<div class="container-fluid p-0">
+    <!-- About-->
+    <section class="resume-section" id="about">
+        <div class="resume-section-content">
+            <h1 class="mb-0">
+                hyejin
+                <span class="text-primary">jang</span>
+            </h1>
+            <div class="subheading mb-5">
+                2018.04 ~ <span id="today"></span>, 4 years developer · 010 2351 4802 ·
+                <a href="mailto:jang314@naver.com">jang314@naver.com</a>
+            </div>
+            <p class="lead mb-0">안녕하세요. </p>
+            <p class="lead mb-0">개발을 너무도 사랑하는 4년차 개발자 장혜진입니다. </p>
+            <p class="lead mb-3">최고의 프로그래머가 되기 위해 끊임없이 도전중입니다.</p>
+            <p class="lead mb-5">저의 개발 라이프를 소개합니다.</p>
+
+            <div class="social-icons">
+                <button class="bg-primary" id="resume" onclick="goResume()">SHOW RESUME</button>
+            </div>
+        </div>
+    </section>
+    <hr class="m-0"/>
+    <!-- Education-->
+    <section class="resume-section" id="education">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Education</h2>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">동양미래대학교</h3>
+                    <div class="subheading mb-3">소프트웨어정보과 (3년)</div>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">March 2013 - February 2017</span></div>
+            </div>
+            <div class="d-flex flex-column flex-md-row justify-content-between">
+                <div class="flex-grow-1">
+                    <h3 class="mb-0">무원고등학교</h3>
+                    <div class="subheading mb-3">이공계</div>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">March 2010 - February 2013</span></div>
+            </div>
+        </div>
+    </section>
+    <hr class="m-0"/>
+    <!-- Skills-->
+    <section class="resume-section" id="skills">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Skills</h2>
+            <!--            <ul class="list-inline dev-icons">-->
+            <!--                <li class="list-inline-item"><i class="fab fa-html5"></i></li>-->
+            <!--                <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>-->
+            <!--                <li class="list-inline-item"><i class="fab fa-js-square"></i></li>-->
+            <!--                <li class="list-inline-item"><i class="fab fa-angular"></i></li>-->
+            <!--                <li class="list-inline-item"><i class="fab fa-react"></i></li>-->
+            <!--                <li class="list-inline-item"><i class="fab fa-node-js"></i></li>-->
+            <!--                <li class="list-inline-item"><i class="fab fa-sass"></i></li>-->
+            <!--                <li class="list-inline-item"><i class="fab fa-less"></i></li>-->
+            <!--                <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>-->
+            <!--                <li class="list-inline-item"><i class="fab fa-gulp"></i></li>-->
+            <!--                <li class="list-inline-item"><i class="fab fa-grunt"></i></li>-->
+            <!--                <li class="list-inline-item"><i class="fab fa-npm"></i></li>-->
+            <!--            </ul>-->
+
+            <ul class="mb-5 ">
+                <li class="col-lg-8 col-sm-12 mb-3">
+                    <span>JAVA</span>
+                    <i class="val float-lg-end">80%</i>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                             aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                        </div>
+                    </div>
+                </li>
+                <li class="col-lg-8  col-sm-12 mb-3">
+                    <span>ExpressJS</span>
+                    <i class="val float-lg-end">30%</i>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="30"
+                             aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                        </div>
+                    </div>
+                </li>
+
+                <li class="col-lg-8  col-sm-12 mb-3">
+                    <span>ReactJS </span>
+                    <i class="val float-lg-end">30%</i>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="30"
+                             aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                        </div>
+                    </div>
+                </li>
+
+                <li class="col-lg-8  col-sm-12 mb-3">
+                    <span>ReduxJS </span>
+                    <i class="val float-lg-end">20%</i>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="20"
+                             aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                        </div>
+                    </div>
+                </li>
+
+                <li class="col-lg-8  col-sm-12 mb-3">
+                    <span>HTML / CSS</span>
+                    <i class="val float-lg-end">50%</i>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="50"
+                             aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                        </div>
+                    </div>
+                </li>
+
+                <li class="col-lg-8  col-sm-12 mb-3">
+                    <span>JAVASCRIPT / JQUERY</span>
+                    <i class="val float-lg-end">70%</i>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                             aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Experience-->
+    <section class="resume-section" id="experience">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Experience</h2>
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-3">mnwise
+                        <span class="subheading ml-3">TS팀 / 대리</span>
+                    </h3>
+                    <ul class="fa-ul mb-5">
+                        <li>
+                            <h5 class="title mb-3">
+                                <span class="fa-li"><i class="fas fa-1"></i> .</span>
+                                대량메일 솔루션 운영 및 유지보수 (2020. 09 ~ 현재)</h5>
+                            <div class="content">
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    금융/보험/공공기업 등의 대형 기업 대상의 유지보수 (기술지원/장애대응)
+                                <div class="sub-content">
+                                    <ul class="p-0">
+                                        <li>- 유지보수 고객사 담당자와의 커뮤니케이션 경험</li>
+                                        <li>- 제주은행, 부산은행, 산업은행, 기업은행 등 금융기관 유지보수</li>
+                                        <li>- 메트라이프, DB생명, 우리캐피탈 등 보험사 유지보수</li>
+                                        <li>- 한국철도공사, 병무청, 특허청 등 공공기관 유지보수</li>
+                                        <li>- 한화그룹, 신세계아이앤씨 등 대형기업 유지보수</li>
+                                    </ul>
+                                </div>
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    고객사 별 다양한 OS 및 DBMS등의 환경 운영 및 배포 경험
+                                <div class="sub-content">
+                                    <ul class="p-0">
+                                        <li>- 리눅스, 윈도우 등의 서버이전</li>
+                                        <li>- Oracle, Mssql, Mysql 등 다양한 DBMS경험</li>
+                                    </ul>
+                                </div>
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    대량 데이터 처리 서비스 운영
+                                <div class="sub-content">
+                                    <ul class="p-0">
+                                        <li>- 메일/문자/알림톡 등 UMS채널 대상의 대량 데이터 처리 서비스 기술지원</li>
+                                    </ul>
+                                </div>
+
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="fa-ul mb-5">
+                        <li>
+                            <h5 class="title mb-3">
+                                <span class="fa-li"><i class="fas fa-2"></i> .</span>
+                                대량메일 솔루션 대응개발</h5>
+                            <div class="content">
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    신세계 아이앤씨 (2020. 02 ~ 2020. 04)
+                                <div class="sub-content">
+                                    <ul class="p-0">
+                                        <li>- 개인정보 삭제 배치 개발 <span>Spring Batch</span></li>
+                                        <li>- 개인정보 이력 관리 웹 페이지(보안취약점 웹 개선) 개발</li>
+                                        <li>- 윈도우 서버 배포 및 운영 (안정화)</li>
+                                    </ul>
+                                </div>
+                                </p>
+
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    세종텔레콤 상주 개발 (2020. 06 ~ 2020. 08)
+                                <div class="sub-content">
+                                    <ul class="p-0 ">
+                                        <li>- HTML TO PDF서비스 개발 (이메일 발송)</span></li>
+                                        <li>- QR코드 및 SHORT URL API 연동 및 개발</li>
+                                        <li>- 리눅스 서버 배포 및 운영 (안정화)</li>
+                                    </ul>
+                                </div>
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    토스뱅크(2020. 10 ~ 2020. 11)
+                                <div class="sub-content">
+                                    <ul class="p-0 ">
+                                        <li>- 템플릿 기능 웹 페이지 개발</span></li>
+                                        <li>- 보안모듈 적용 및 발송 플로우 개발</li>
+                                        <li>- 스프링 배치 발송 결과 데이터 처리 프로세스 개발</li>
+                                    </ul>
+                                </div>
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    신세계 아이앤씨 (2021. 05 ~ 2021. 06)
+                                <div class="sub-content">
+                                    <ul class="p-0 ">
+                                        <li>- 개인정보 삭제 배치 개발</span></li>
+                                        <li>- 웹 취약성 XSS 보안 취약점 개선</li>
+                                        <li>- 발송 프로세스 사후 업데이트 처리 개발</li>
+                                        <li>- PUSH RESTFUL API 연동 개발</li>
+                                        <li>- 윈도우 서버 배포 및 운영 (안정화)</li>
+                                    </ul>
+                                </div>
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    DB생명(2021. 09 ~ 2021. 10)
+                                <div class="sub-content">
+                                    <ul class="p-0 ">
+                                        <li>- 모바일 안내장 서비스 개발</span></li>
+                                        <li>- 발송 결과 데이터 처리 배치 개발</li>
+                                        <li>- 리눅스 서버 배포 및 운영 (안정화)</li>
+                                    </ul>
+                                </div>
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    메트라이프(2021. 09 ~ 2021. 10)
+                                <div class="sub-content">
+                                    <ul class="p-0 ">
+                                        <li>- 웹 취약성 XSS 보안 취약점 개선</li>
+                                        <li>- 유닉스 서버 배포 및 운영 (안정화)</li>
+                                    </ul>
+                                </div>
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    신한저축은행(2022. 01 ~ 2022. 02)
+                                <div class="sub-content">
+                                    <ul class="p-0 ">
+                                        <li>- 보안모듈 적용 서비스 개발</li>
+                                        <li>- 솔루션 패키지 개발 서버 구축</li>
+                                        <li>- 리눅스 서버 배포 및 운영</li>
+                                    </ul>
+                                </div>
+                                </p>
+
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    신한은행 베트남(2022. 02 ~ 2022. 03)
+                                <div class="sub-content">
+                                    <ul class="p-0 ">
+                                        <li>- HTML TO PDF 청구서 서비스 개발</li>
+                                    </ul>
+                                </div>
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    NH농협생명(2022. 04 ~ 2022. 05)
+                                <div class="sub-content">
+                                    <ul class="p-0 ">
+                                        <li>- 개발/DR/운영계 보안 모듈 설치 및 구축</li>
+                                        <li>- Non Active방식 서비스에서 보안 모듈 서비스 교체 작업</li>
+                                        <li>- 윈도우 서버 배포 및 운영</li>
+                                    </ul>
+                                </div>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="fa-ul mb-5">
+                        <li>
+                            <h5 class="title mb-3">
+                                <span class="fa-li"><i class="fas fa-3"></i> .</span>
+                                사내시스템 개발/운영 및 배포</h5>
+                            <div class="content">
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    고객관리시스템(2020. 12 ~ 현재)
+                                <div class="sub-content">
+                                    <ul class="p-0 ">
+                                        <li>- 영업부 관리 페이지 (고객사 및 프로젝트/유지보수) 개발</li>
+                                        <li>- 관리부 관리 페이지 (매입/매출 관리) 개발</li>
+                                        <li>- 팀 내에서 고객사 관리 및 일일보고 페이지 개발</li>
+                                        <li class="skill">- 사용기술 :
+                                            <span>Spring Framework / JAVA / Mybatis / Jquery / Html </span>
+                                        </li>
+                                        <li class="skill">- 배포환경 :
+                                            <span>Window(개발) / CentOS(운영) / Jenkins / Mysql (DBMS) / SVN / RESTFUL API </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                </p>
+                            </div>
+
+                            <div class="content">
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    칭찬카드(2021. 09 ~ 현재)
+                                <div class="sub-content">
+                                    <ul class="p-0 ">
+                                        <li>- 아키텍처 구성 및 프로젝트 설계</li>
+                                        <li>- 서버 내 환경 구축(NodeJS 설치 및 백그라운드 실행)</li>
+                                        <li>- CRUD 기능 개발 (등록/삭제/수정/조회)</li>
+                                        <li>- 통계 페이지 개발</li>
+                                        <li>- 소셜 로그인(구글) 구현 (OAuth, PassportJS)</li>
+                                        <li class="skill">- 사용기술 :
+                                            <span>ReactJS / ExpressJS / ReduxJS </span>
+                                        </li>
+                                        <li class="skill">- 배포환경 :
+                                            <span>Window(운영) / CentOS(개발) / Jenkins / Mysql (DBMS) / GITHUB / RESTFUL API </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-shrink-0"><span class="text-primary">December 2019 - Present</span></div>
+            </div>
+
+            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                    <h3 class="mb-3">HANSNET
+                        <span class="subheading ml-3">솔루션사업팀 / 사원</span>
+                    </h3>
+                    <ul class="fa-ul mb-5">
+                        <li>
+                            <h5 class="title mb-3">
+                                <span class="fa-li"><i class="fas fa-1"></i> .</span>
+                                이벤트페이지 운영 및 개발 (2018. 04 ~ 2019. 11)</h5>
+                            <div class="content">
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    이벤트 페이지 퍼블리싱 (HTML/CSS)
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    프론트 개발 (Javascript / Jquery)
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Google Analytics 스크립트 삽입 등 마케팅 팀과의 협업 및 운영
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    관리자 페이지 개발 (이벤트 페이지 등록 자동화)
+                                <div class="sub-content">
+                                    <ul class="p-0 ">
+                                        <li class="skill">- 사용기술 :
+                                            <span>JAVA / JSP / JDBC / Html / CSS / JAVASCRIPT/ JQUERY </span>
+                                        </li>
+                                        <li class="skill">- 배포환경 :
+                                            <span>Window(운영/개발) / SOURCE TREE / MSSQL (DBMS) </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="fa-ul mb-5">
+                        <li>
+                            <h5 class="title mb-3">
+                                <span class="fa-li"><i class="fas fa-2"></i> .</span>
+                                인터넷 강의 사이트 운영/개발/배포 (2018. 04 ~ 2019. 11)</h5>
+                            <div class="content">
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    프론트 개발 (Javascript / Jquery)
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    Google Analytics 스크립트 삽입 등 마케팅 팀과의 협업 및 운영
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    관리자 페이지 개발 (이벤트 페이지 등록 자동화)
+                                <div class="sub-content">
+                                    <ul class="p-0 ">
+                                        <li class="skill">- 사용기술 :
+                                            <span>JAVA / JSP / JDBC / Html / CSS / JAVASCRIPT/ JQUERY </span>
+                                        </li>
+                                        <li class="skill">- 배포환경 :
+                                            <span>Window(운영/개발) / SOURCE TREE / MSSQL (DBMS) </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="fa-ul mb-5">
+                        <li>
+                            <h5 class="title mb-3">
+                                <span class="fa-li"><i class="fas fa-3"></i> .</span>
+                                인터넷 강의 사이트 리뉴얼</h5>
+                            <div class="content">
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    나의 강의실 퍼블리싱 (HTML/CSS)
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    나의 강의실 기존 소스 분석 / MVC1에서 MVC2로 변경 작업 및 추가 개발
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    이벤트 페이지 관련 기능 개발
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    관리자 페이지 개발 (기존 소스 변경 및 추가 기능 개발)
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    사용기술 : Spring Framework / JAVA / JSP / Mybatis / Html / CSS / JAVASCRIPT/ JQUERY /
+                                    RESTFUL API
+                                </p>
+                                <p class="mb-1">
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>
+                                    배포환경 :
+                                    <span>Window(운영/개발) / SOURCE TREE / MSSQL (DBMS) </span>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="m-0"/>
+
+
+    <hr class="m-0"/>
+    <!-- Awards-->
+    <section class="resume-section" id="awards">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Awards & Certifications</h2>
+            <ul class="fa-ul mb-0">
+                <li>
+                    <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                    OCJP (Oracle Certified Java Programmer) - 2016. 09
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                    정보처리산업기사 - 2017. 08
+                </li>
+                <li class="mb-3">
+                    <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                    정보처리기사 - 2020. 11
+                </li>
+                <li>
+                    <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                    <sup>장려</sup>
+                    2016창업교과 기술창업 아이디어 공모전 [동양미래대학] - 2016.11, (주제 - 헬스 웹 애플리케이션)
+                </li>
+            </ul>
+        </div>
+    </section>
+</div>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<script>
+    let today = new Date();
+    let year = today.getFullYear();
+    let month = today.getMonth() + 1;
+
+
+    document.getElementById("today").innerHTML = year + "." + (month < 10 ? "0" + month : month);
+
+    function goResume() {
+        window.open('https://www.notion.so/JANG-HYE-JIN-1ed040052524426791ab41997192522e')
+    }
+</script>
+</body>
+</html>
